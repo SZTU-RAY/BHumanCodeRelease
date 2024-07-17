@@ -16,7 +16,7 @@ STREAMABLE(Teams,
   STREAMABLE(Team,
   {,
     (int) number, /**队伍数 */
-    (std::string) name, /**< The name of the team. */
+    (std::string) name, /**< 名字 */
   }),
   (std::vector<Team>) teams, /**< The list of all teams. */
 });
