@@ -2,7 +2,7 @@
  * @file Behavior.h
  *
  * This file declares the behavior framework.
- *
+ * 定义行为框架
  * @author Arne Hasselbring
  */
 
