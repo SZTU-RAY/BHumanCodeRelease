@@ -2,7 +2,7 @@
  * @file SkillBehaviorControl.h
  *
  * This file declares the behavior control for the skill layer.
- *
+ * 行为控制
  * @author Arne Hasselbring
  */
 
