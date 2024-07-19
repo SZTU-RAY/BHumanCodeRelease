@@ -22,7 +22,9 @@ option(HandleReturnFromSideline)
   {
     transition
     {
-      if(state_time > 4 * maxAngle.toDegrees() / maxSpeed.toDegrees() * 1000)
+      // if(state_time > 4 * maxAngle.toDegrees() / maxSpeed.toDegrees() * 1000)
+      //   goto initialized;
+      if(state_time > 0)
         goto initialized;
     }
 
