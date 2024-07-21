@@ -1,0 +1,323 @@
+[33mcommit 5b35454390295c411eaaa799bb4f9f8a84de642e[m[33m ([m[1;36mHEAD -> [m[1;32m2[m[33m, [m[1;32mtjx[m[33m)[m
+Author: tjx763 <202300104055@stumail.sztu.edu.cn>
+Date:   Sun Jul 21 02:35:10 2024 +0800
+
+    tjx第一次提交
+
+[33mcommit 6e911901e3d4106033670c4cd83f5fbe211d1786[m
+Author: tjx763 <202300104055@stumail.sztu.edu.cn>
+Date:   Sun Jul 21 02:16:06 2024 +0800
+
+    tjx第一次提交
+
+[33mcommit 7209e85f65ece31baf76c01797b71129a588e431[m[33m ([m[1;32m8[m[33m, [m[1;32m7[m[33m)[m
+Author: “tjx763” <“202300104055@stumail.sztu.edu.cn”>
+Date:   Sun Jul 21 00:42:27 2024 +0800
+
+    tjx第一次提交
+
+[33mcommit 50c83c6a8826ed2c08bc7400d9e9d76e48b343a9[m[33m ([m[1;33mtag: coderelease2023[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Thu Oct 12 11:35:03 2023 +0200
+
+    Code Release 2023
+
+[33mcommit 645031c46ff88efcf32129301d21e109857cde3d[m[33m ([m[1;33mtag: coderelease2022[m[33m)[m
+Author: Laurens Müller-Groh <16505700+Laurendus@users.noreply.github.com>
+Date:   Wed Mar 29 17:27:24 2023 +0200
+
+    add CITATION.cff
+
+[33mcommit 677b53b702fdb6a9ee3285e4f17d7fe38f28a882[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Sat Jan 14 10:38:15 2023 +0100
+
+    Make generate work with current versions of CMake and Xcode
+    
+    This may not work with older versions anymore.
+
+[33mcommit 6d52cc749297936d53658d8ef83e9fd98fa1a3c9[m
+Author: Arne Hasselbring <Arne.Hasselbring@dfki.de>
+Date:   Mon Nov 7 10:44:42 2022 +0100
+
+    Add files that were ignored
+
+[33mcommit 141ecea7a5a42f9768b8c7e2355b3965df83500d[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Tue Nov 1 09:56:40 2022 +0100
+
+    PDF with bookmarks
+
+[33mcommit 9206deeadbda060b260a4fcdcccdb062d9667ed1[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Wed Oct 26 22:01:35 2022 +0200
+
+    CodeRelease 2022
+
+[33mcommit cf93ccbd35382e05ab1b53afdd58eb7bcabc4255[m[33m ([m[1;33mtag: coderelease2021[m[33m)[m
+Author: Arne Hasselbring <Arne.Hasselbring@dfki.de>
+Date:   Tue Jul 26 12:12:58 2022 +0200
+
+    Make addRobotIds -ip work again
+
+[33mcommit 73d5b79add7bc8c73f32a487cc866924eb8413a5[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Mon Jun 27 22:13:29 2022 +0200
+
+    Bugfix for macOS
+
+[33mcommit b707332ebb40cbf2690b6241da25944ba81639b4[m
+Author: roefer <roefer@uni-bremen.de>
+Date:   Tue Dec 28 11:13:13 2021 +0100
+
+    Added team report for 2021
+
+[33mcommit 599e18d8e57b2d1facbb6e889829e4af7857e822[m
+Author: Arne Hasselbring <arha@uni-bremen.de>
+Date:   Sun Dec 12 22:33:13 2021 +0100
+
+    Fix bush on Linux with locales other than en/de
+
+[33mcommit ca08c5f4d21fb5c08954e323fe14be72004ac5e7[m
+Author: Arne Hasselbring <arha@uni-bremen.de>
+Date:   Wed Oct 27 18:13:23 2021 +0200
+
+    Add link to wiki
+
+[33mcommit ccc665983d6aa8135d56b4f5e2758a928bb81803[m
+Author: Arne Hasselbring <arha@uni-bremen.de>
+Date:   Fri Oct 22 19:05:02 2021 +0200
+
+    CodeRelease 2021
+
+[33mcommit 39020950dba29a5c9b8bc736c52a2a5b7ef4a12f[m
+Author: Arne Hasselbring <Arne.Hasselbring@dfki.de>
+Date:   Tue Jun 8 16:06:01 2021 +0200
+
+    Bugfix
+
+[33mcommit 1dc0897db8e4c0b507ce559a02191d1028ac0f3d[m
+Author: Arne Hasselbring <arha@uni-bremen.de>
+Date:   Tue May 18 16:04:58 2021 +0200
+
+    Change robocup-nao address
+
+[33mcommit 1c8ee770d2a89c6356ce60489fc1f152c1805c9f[m
+Author: Arne Hasselbring <Arne.Hasselbring@dfki.de>
+Date:   Wed May 12 14:51:34 2021 +0200
+
+    Update ODE
+
+[33mcommit 1ebaf0a8c41de550f7816f933f13aefe412c38f4[m
+Author: Arne Hasselbring <Arne.Hasselbring@dfki.de>
+Date:   Wed May 12 14:48:01 2021 +0200
+
+    Fix Nao build on Windows
+
+[33mcommit d7deadc6f1a4c445c4bbd2e9f256bf058b80a24c[m[33m ([m[1;33mtag: coderelease2019[m[33m)[m
+Author: bhuman <4134695+bhuman@users.noreply.github.com>
+Date:   Fri Oct 18 16:16:03 2019 +0200
+
+    Added note about cloning on Windows
+
+[33mcommit e9729ab48e2b5195643ccf74aaa8857260949fca[m
+Author: Arne Hasselbring <arha@uni-bremen.de>
+Date:   Wed Oct 2 11:15:10 2019 +0200
+
+    Add files that are ignored
+
+[33mcommit ccd827ef27ecb47c43b80220591742470fd8586b[m
+Author: Arne Hasselbring <arha@uni-bremen.de>
+Date:   Tue Oct 1 17:59:32 2019 +0200
+
+    Add team report 2019
+
+[33mcommit 8245f7715d3157166b1ce0622fa5ff1cf54a0d7f[m
+Author: Arne Hasselbring <arha@uni-bremen.de>
+Date:   Mon Sep 30 19:45:57 2019 +0200
+
+    CodeRelease 2019
+
+[33mcommit 6c09f4b8a060851a49ac997221fef52bbe0aff8e[m[33m ([m[1;33mtag: coderelease2018[m[33m)[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Thu Dec 27 16:29:24 2018 +0100
+
+    Removed project Tests, because it did not compile
+
+[33mcommit 56c68b0b2cb0780de5f35b0d81f1d004056388bc[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Sun Dec 2 13:18:50 2018 +0100
+
+    Bugfix: Removed changing the password for user nao
+
+[33mcommit 8718c6abe4eac71cd42276fcf3ee17056d72ce2c[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Tue Nov 20 18:09:05 2018 +0100
+
+    Bugfix
+
+[33mcommit e4d7a4897500f7fd4b37f2f43ad731cb884766b4[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Sun Nov 11 12:58:54 2018 +0100
+
+    CodeRelease 2018
+
+[33mcommit 3d3c5906a9efca017c87ebf8d8a84eb453ceafe1[m[33m ([m[1;33mtag: coderelease2017[m[33m)[m
+Author: Arne Hasselbring <arha@uni-bremen.de>
+Date:   Mon Apr 2 17:27:16 2018 +0200
+
+    Compile without errors and warnings with new compilers
+    
+    Closes #14.
+
+[33mcommit 2cf37979590fa8abceb60e917e0ee3b781125d04[m
+Author: Arne Hasselbring <arne.hasselbring@tu-harburg.de>
+Date:   Thu Mar 8 15:55:45 2018 +0100
+
+    Add damageConfigurationBody.cfg
+
+[33mcommit 7f4ec6a44533a21502dfbbb851ace003c7a23830[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Thu Oct 12 14:12:45 2017 +0200
+
+    Corrected some typos
+
+[33mcommit d245151c9dd34654a97dd00428346fceb19db7c0[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Fri Oct 6 15:38:56 2017 +0200
+
+    CodeRelease 2017
+
+[33mcommit c3ad7d809adf63828451eab41aa281e76c67d522[m[33m ([m[1;33mtag: coderelease2016[m[33m)[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Thu Dec 8 18:42:10 2016 +0100
+
+    Fixed reference
+
+[33mcommit 36fd07a8461e246af6a360fdde033366b90c8c4b[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Wed Nov 30 14:19:26 2016 +0100
+
+    CodeRelease 2016
+
+[33mcommit 1fd87519e2bbb3ccbb5f288980438b692629f7c1[m[33m ([m[1;33mtag: coderelease2015[m[33m)[m
+Author: bhuman <grp-bhuman@informatik.uni-bremen.de>
+Date:   Tue Apr 5 12:36:01 2016 +0200
+
+    Delete settings.cfg~
+    
+    removed useless temp file
+
+[33mcommit 7a0151ae9680e5fbd17c4071a045369c93947b4b[m
+Author: Tim Laue <tlaue@uni-bremen.de>
+Date:   Sat Apr 2 15:28:59 2016 +0200
+
+    changed team number, and port, and team color to values that B-Human does *not* use
+
+[33mcommit e3baf43721c64085e49a8be6540e5c038450cab4[m
+Author: Alexis Tsogias <alexists@tzi.de>
+Date:   Wed Mar 9 14:51:28 2016 +0100
+
+    Updated CodeRelease2015.pdf
+
+[33mcommit a6bcdf6ec50f23da008644f7614f92178b83acdf[m
+Author: Alexis Tsogias <alexists@tzi.de>
+Date:   Wed Mar 9 12:09:26 2016 +0100
+
+    Changed the way the robot body is identified.
+
+[33mcommit daf295805d5e8758b7eb808eda9917458ed7b00d[m
+Author: Alexis Tsogias <alexists@tzi.de>
+Date:   Wed Mar 9 12:08:44 2016 +0100
+
+    Added gitignore
+
+[33mcommit 01f20bd311658d9410108ce4df99bdc25b3c787a[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Fri Jan 15 14:01:32 2016 +0100
+
+    Added warning about usage
+
+[33mcommit e2aa6f09792dfaea7a36e3a1aba7222fb076c633[m
+Author: Tim Laue <tlaue@uni-bremen.de>
+Date:   Mon Nov 30 11:17:08 2015 +0100
+
+    added 2015 team report, removed 2014 report
+
+[33mcommit b8ba3d1402536fd2eaa3bef8ef5f29894558afa9[m
+Author: Alexis Tsogias <alexists@tzi.de>
+Date:   Fri Nov 27 22:14:43 2015 +0100
+
+    Bugfix in buildInfo
+
+[33mcommit e39d23c238243a18c46d599b918be64439c46d02[m
+Author: Alexis Tsogias <alexists@tzi.de>
+Date:   Fri Nov 27 19:49:38 2015 +0100
+
+    Updated some files
+
+[33mcommit 19dbfd7df6bfd68ca4e12d028f5a5a332e5c9985[m
+Author: Alexis Tsogias <alexis.ts@gmx.de>
+Date:   Fri Nov 27 13:51:49 2015 +0100
+
+    Update README.md
+
+[33mcommit bd830f7aadf1a72020b66f7ef8c861b5361db597[m
+Author: Alexis Tsogias <alexists@tzi.de>
+Date:   Fri Nov 27 13:44:05 2015 +0100
+
+    B-Human Code Release 2015
+
+[33mcommit 0e4e0cec9c4fb667eab16014fa39eb99ff0da2ae[m[33m ([m[1;33mtag: coderelease2014[m[33m)[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Mon Sep 8 10:51:50 2014 +0200
+
+    Updated readme
+
+[33mcommit 105522759542b8982892d4a7e4d9f88c65d07e7c[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Mon Sep 8 10:41:42 2014 +0200
+
+    B-Human Code Release 2014
+
+[33mcommit 9fd20523c946d61548033a051206be584c974ccc[m[33m ([m[1;33mtag: coderelease2013[m[33m)[m
+Author: Alexis Tsogias <alexists@tzi.de>
+Date:   Mon Jan 6 14:05:33 2014 +0100
+
+    Added another patch for gcc
+
+[33mcommit c273b324746e800165258d47a5d1b96bd6837c62[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Mon Dec 30 01:05:07 2013 +0100
+
+    Shrink team report below 10 MB
+
+[33mcommit 6717da7a05a8475bb2579795376a92d7978d2511[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Mon Dec 30 00:25:57 2013 +0100
+
+    These files do not need to be executable
+
+[33mcommit 88b1f93e9c5e083052a1f12cd343d31ff452dcdd[m
+Author: Thomas Röfer <Thomas.Roefer@dfki.de>
+Date:   Mon Dec 30 00:08:57 2013 +0100
+
+    Fix access rights and symbolic links
+
+[33mcommit 9c2311a7354bcc50ad9ba86db5e8a3411c44ef8c[m
+Author: Alexis Tsogias <alexists@tzi.de>
+Date:   Sun Dec 29 19:41:30 2013 +0100
+
+    The pdf.
+
+[33mcommit 48ae2a355b333029a78920fd6daac8fb77e5561f[m
+Author: Alexis Tsogias <alexists@tzi.de>
+Date:   Sun Dec 29 19:36:02 2013 +0100
+
+    The framework.
+
+[33mcommit 125d8861dfa8a078aaae1663305366f32d5473f7[m
+Author: bhuman <grp-bhuman@informatik.uni-bremen.de>
+Date:   Sun Dec 29 10:24:40 2013 -0800
+
+    Initial commit
