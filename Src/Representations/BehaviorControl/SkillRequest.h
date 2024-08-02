@@ -30,6 +30,7 @@ STREAMABLE(SkillRequest,
   struct Builder
   {
     // All coordinates/angles/directions are in field coordinates.
+    //所有坐标/角度/方向均为场坐标
     static SkillRequest empty();
     static SkillRequest stand();
     static SkillRequest walkTo(const Pose2f& target);
@@ -41,7 +42,7 @@ STREAMABLE(SkillRequest,
     static SkillRequest observe(const Vector2f& point);
   },
 
-  (Type)(none) skill, /**< The skill that shall run. */
-  (Pose2f) target, /**< The target pose, object or direction (in field coordinates). */
-  (int)(-1) passTarget, /**< The number of the passed-to player. */
+  (Type)(none) skill, /**< 应该运行的技能 */
+  (Pose2f) target, /**< 所需的位置、物体或方向，均以场地坐标为基准 */
+  (int)(-1) passTarget, /**< 要传的球员号码 */
 });

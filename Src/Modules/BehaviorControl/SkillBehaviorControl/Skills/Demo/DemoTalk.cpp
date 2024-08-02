@@ -20,7 +20,7 @@ SKILL_IMPLEMENTATION(DemoTalkImpl,
   REQUIRES(FrameInfo),
   DEFINES_PARAMETERS(
   {,
-    (int)(1000) delayBeforeTalking, /**< This amount of time is waited after pressing the head button until the sound is actually played.*/
+    (int)(1) delayBeforeTalking, /**< This amount of time is waited after pressing the head button until the sound is actually played.*/
   }),
 });
 

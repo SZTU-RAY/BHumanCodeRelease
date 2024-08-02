@@ -1,0 +1,2 @@
+utime(/tmp/b-human-root/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_InRelease): No such file or directory
+2024-07-23 15:51:35 URL:http://archive.ubuntu.com/ubuntu/dists/jammy/InRelease [270087/270087] -> "/tmp/b-human-root/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_jammy_InRelease" [3]

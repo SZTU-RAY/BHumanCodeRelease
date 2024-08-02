@@ -49,10 +49,13 @@ class PlayBallImpl : public PlayBallImplBase
     {
       transition
       {
+        // if(state_time>10000)
         if((theFieldBall.positionOnField - usedGoalPost).squaredNorm() < sqr(goalPostHandlingAreaRadius))
-          goto atOwnGoalPost;
+        goto atOwnGoalPost;
         if(activateDuel())
-          goto zweikampf;
+        goto zweikampf;
+        
+        
       }
 
       action
@@ -67,7 +70,8 @@ class PlayBallImpl : public PlayBallImplBase
             break;
           case SkillRequest::shoot:
           default:
-            theKickAtGoalSkill();
+            // theKickAtGoalSkill();
+            thePassToTeammateSkill(5);
             break;
         }
       }
