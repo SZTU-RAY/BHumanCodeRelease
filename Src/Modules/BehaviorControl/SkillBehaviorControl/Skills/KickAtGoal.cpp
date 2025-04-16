@@ -67,18 +67,18 @@ class KickAtGoalImpl : public KickAtGoalImplBase
 
     const bool allowDirectKick = !(theGameState.isFreeKick() &&
                                    theGameState.isForOwnTeam());
-    if(aimingAtGoal && allowDirectKick)
+    if(theGameState.isKickOff())
+    {
+      theDirectKickOffSkill();
+    }
+    if(aimingAtGoal && allowDirectKick && !theGameState.isKickOff())
     {
       theGoToBallAndKickSkill({.targetDirection = kickDirectionRelative,
                                .kickType = kickType,
                                .alignPrecisely = theKickInfo[kickType].motion == MotionPhase::walk ? KickPrecision::notPrecise : KickPrecision::precise });
       state = notActive;
     }
-    else if(theGameState.isKickOff())
-    {
-      theDirectKickOffSkill();
-    }
-    else
+    else if(!theGameState.isKickOff())
       theDribbleToGoalSkill();
   }
 

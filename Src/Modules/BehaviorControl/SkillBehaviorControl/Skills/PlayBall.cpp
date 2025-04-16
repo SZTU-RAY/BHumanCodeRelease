@@ -70,8 +70,8 @@ class PlayBallImpl : public PlayBallImplBase
             break;
           case SkillRequest::shoot:
           default:
-            // theKickAtGoalSkill();
-            thePassToTeammateSkill(5);
+            theKickAtGoalSkill();
+            // thePassToTeammateSkill(5);
             break;
         }
       }

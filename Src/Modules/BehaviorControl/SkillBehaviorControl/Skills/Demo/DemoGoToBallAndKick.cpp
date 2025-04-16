@@ -63,12 +63,12 @@ class DemoGoToBallAndKickImpl : public DemoGoToBallAndKickImplBase
   }
 
   void kickBall()
-  {
+  { 
     // Robot just kicked. Select new kick
     if(lastKick != theMotionInfo.lastKickTimestamp)
       selectNextKick();
     // alignPrecisely = true for InWalkKicks forces the robot to come to a full stop before kicking.
-    const KickPrecision alignPrecisely = kickType.kick == KickInfo::forwardFastLeft || kickType.kick == KickInfo::forwardFastRight
+    const KickPrecision alignPrecisely = kickType.kick == KickInfo::forwardFastRightLong || kickType.kick == KickInfo::forwardFastLeftLong
                                          ? KickPrecision::notPrecise : KickPrecision::precise;
     theWalkToBallAndKickSkill({.targetDirection = -theKickInfo[kickType.kick].rotationOffset,
                                .kickType = kickType.kick,
@@ -96,9 +96,9 @@ class DemoGoToBallAndKickImpl : public DemoGoToBallAndKickImplBase
     for(const PowerKickPair& kick : availableKicks)
     {
       // In case the strong forward kick is not allowed, simply do not add it
-      if(kick.kick == KickInfo::forwardFastLeft && theDamageConfigurationBody.sides[Legs::right].weakLeg)
+      if(kick.kick == KickInfo::forwardFastLeftLong && theDamageConfigurationBody.sides[Legs::right].weakLeg)
         continue;
-      if(kick.kick == KickInfo::forwardFastRight && theDamageConfigurationBody.sides[Legs::left].weakLeg)
+      if(kick.kick == KickInfo::forwardFastRightLong && theDamageConfigurationBody.sides[Legs::left].weakLeg)
         continue;
       for(unsigned int i = 0; i < kickRepetitionNumber; i++)
         randomKickSelectionList.push_back(kick);

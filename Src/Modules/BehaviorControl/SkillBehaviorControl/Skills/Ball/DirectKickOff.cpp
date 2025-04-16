@@ -23,6 +23,8 @@ SKILL_IMPLEMENTATION(DirectKickOffImpl,
 {,
   IMPLEMENTS(DirectKickOff),
   CALLS(GoToBallAndKick),
+  CALLS(WalkToBallAndKick),
+  CALLS(PassTarget),
   CALLS(LookLeftAndRight),
   CALLS(PassToTeammate),
   CALLS(Stand),
@@ -133,7 +135,14 @@ class DirectKickOffImpl : public DirectKickOffImplBase
     // theGoToBallAndKickSkill({.targetDirection = Angle::normalize(targetAngle - theRobotPose.rotation),
     //                          .kickType = kickType,
     //                          .lookActiveWithBall = true});
-    thePassToTeammateSkill(5);
+    theWalkToBallAndKickSkill({.targetDirection = Angle::normalize(320_deg - theRobotPose.rotation),
+                               .kickType = KickInfo::forwardFastRight,
+                               .alignPrecisely = KickPrecision::precise,
+                               .kickLength = 200.0f,
+                               .directionPrecision = Rangea(0_deg, 1_deg)});
+    // thePassTargetSkill({.passTarget = 3,
+    //                     .ballTarget = Vector2f(0,2000)});
+    // thePassToTeammateSkill(5);
     wasActive = true;
     // thePassToTeammateSkill(5);
   }
